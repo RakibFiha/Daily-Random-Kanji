@@ -42,6 +42,10 @@ style: """
 
     #kanji
         font-size 70px
+
+    #katakana
+        margin-top: 1px
+        font-size 20px
 """
 
 # Initial render
@@ -51,7 +55,7 @@ render: (output) ->
     <div id="smalltext"> #{fields[0]} </div>
     <div id="kanji"> #{fields[1]} </div>
     <div id="largetext"> #{fields[2]} </div>
-    <div id="pronunciation"> #{fields[3]} </div>
+    <div id="katakana"> #{fields[3]} </div>
     """
 
 # Update when refresh occurs
@@ -62,5 +66,5 @@ update: (output, domEl) ->
     <div id="smalltext"> #{fields[0]} </div>
     <div id="kanji"> #{fields[1]} </div>
     <div id="largetext"> #{fields[2]} </div>
-    <div id="pronunciation"> #{fields[3]} </div>
+    <div id="katakana"> #{fields[3]} </div>
     """);
