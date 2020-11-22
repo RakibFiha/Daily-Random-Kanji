@@ -1,5 +1,5 @@
 # Author: Connor Beardsmore <connor.beardsmore@gmail.com>
-# Last Modified: 22/09/18
+# Last Modified: 22/11/20
 
 # Change the number after RANDOM to choose which kanji level you want:
 # GRADE 1 = 81
