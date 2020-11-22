@@ -51,6 +51,7 @@ render: (output) ->
     <div id="smalltext"> #{fields[0]} </div>
     <div id="kanji"> #{fields[1]} </div>
     <div id="largetext"> #{fields[2]} </div>
+    <div id="pronunciation"> #{fields[3]} </div>
     """
 
 # Update when refresh occurs
@@ -61,4 +62,5 @@ update: (output, domEl) ->
     <div id="smalltext"> #{fields[0]} </div>
     <div id="kanji"> #{fields[1]} </div>
     <div id="largetext"> #{fields[2]} </div>
+    <div id="pronunciation"> #{fields[3]} </div>
     """);
